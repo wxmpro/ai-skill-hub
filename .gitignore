@@ -1,0 +1,25 @@
+# Chat outputs from today's conversation (archived locally, not tracked by git)
+chat-outputs/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment
+.env
+.env.local
