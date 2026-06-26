@@ -1,0 +1,74 @@
+[
+  {
+    "avatar": "🅰️",
+    "title": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "subtitle": "Anthropic 官方 · 生产级文档处理技能",
+    "subtitleEn": "Anthropic's official production-grade document-handling skills.",
+    "score": "",
+    "tags": [],
+    "why": "",
+    "whyEn": "",
+    "stars": 155035
+  },
+  {
+    "avatar": "🛠️",
+    "title": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "subtitle": "Production-grade engineering skills",
+    "subtitleEn": "Production-grade engineering skills",
+    "score": "",
+    "tags": [],
+    "why": "",
+    "whyEn": "",
+    "stars": 66632
+  },
+  {
+    "avatar": "▲",
+    "title": "vercel-labs/agent-skills",
+    "url": "https://github.com/vercel-labs/agent-skills",
+    "subtitle": "Vercel 官方 · 多 agent 兼容",
+    "subtitleEn": "Vercel's official skills — multi-agent compatible.",
+    "score": "",
+    "tags": [],
+    "why": "",
+    "whyEn": "",
+    "stars": 28320
+  },
+  {
+    "avatar": "🔬",
+    "title": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "subtitle": "科研场景专用",
+    "subtitleEn": "Skills for scientific workflows.",
+    "score": "",
+    "tags": [],
+    "why": "",
+    "whyEn": "",
+    "stars": 29301
+  },
+  {
+    "avatar": "📊",
+    "title": "op7418/guizang-ppt-skill",
+    "url": "https://github.com/op7418/guizang-ppt-skill",
+    "subtitle": "PPT 生成场景",
+    "subtitleEn": "PPT generation scenarios.",
+    "score": "",
+    "tags": [],
+    "why": "",
+    "whyEn": "",
+    "stars": 18919
+  },
+  {
+    "avatar": "🔍",
+    "title": "mvanhorn/last30days-skill",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "subtitle": "跨平台研究型 skill",
+    "subtitleEn": "Cross-platform research-oriented skill.",
+    "score": "",
+    "tags": [],
+    "why": "",
+    "whyEn": "",
+    "stars": 46588
+  }
+]

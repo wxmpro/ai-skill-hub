@@ -1,0 +1,86 @@
+[
+  {
+    "name": "1. 规范符合度",
+    "nameEn": "1. Spec compliance",
+    "weight": "20%",
+    "veto": true,
+    "importance": "没有 SKILL.md 和 frontmatter，agent 无法识别和加载该 skill。",
+    "importanceEn": "Without SKILL.md and frontmatter, the agent cannot recognize or load the skill.",
+    "source": "Anthropic 官方 README：\"Skills are folders... with a SKILL.md file... frontmatter requires name and description.\"",
+    "sourceEn": "Anthropic's official README: \"Skills are folders... with a SKILL.md file... frontmatter requires name and description.\"",
+    "sourceType": "一手",
+    "sourceTypeEn": "First-hand"
+  },
+  {
+    "name": "2. Agent 兼容性",
+    "nameEn": "2. Agent compatibility",
+    "weight": "15%",
+    "veto": true,
+    "importance": "skill 再好，不支持你用的 agent 就无意义。",
+    "importanceEn": "A great skill is meaningless if it doesn't support the agent you use.",
+    "source": "Vercel skills CLI README 列出支持 70+ agent；agentskills.io 定义 discovery/activation/execution 三阶段加载机制。",
+    "sourceEn": "Vercel's skills CLI README lists 70+ supported agents; agentskills.io defines the three-stage loading mechanism (discovery / activation / execution).",
+    "sourceType": "一手",
+    "sourceTypeEn": "First-hand"
+  },
+  {
+    "name": "3. 功能描述准确完整",
+    "nameEn": "3. Description accuracy & completeness",
+    "weight": "20%",
+    "veto": false,
+    "importance": "决定 agent 能否在正确时机激活该 skill，以及用户能否预判其能力边界。",
+    "importanceEn": "Determines whether the agent activates the skill at the right time, and whether users can predict its capability boundary.",
+    "source": "Anthropic 官方 skill 模板要求 description 必须说明 \"what this skill does and when to use it\"。",
+    "sourceEn": "Anthropic's official skill template requires the description to specify \"what this skill does and when to use it\".",
+    "sourceType": "一手",
+    "sourceTypeEn": "First-hand"
+  },
+  {
+    "name": "4. 实用示例与边界说明",
+    "nameEn": "4. Practical examples & boundary notes",
+    "weight": "15%",
+    "veto": false,
+    "importance": "示例决定用户能否快速上手；边界说明避免误用和幻觉。",
+    "importanceEn": "Examples decide whether users can onboard quickly; boundary notes prevent misuse and hallucinations.",
+    "source": "Anthropic 官方模板包含 `## Examples` 和 `## Guidelines`；Terryc21/skill-reviewer 的 discoverability lens 专门检查激活词是否清晰。",
+    "sourceEn": "Anthropic's official template includes `## Examples` and `## Guidelines`; Terryc21/skill-reviewer's discoverability lens specifically checks that activation keywords are clear.",
+    "sourceType": "一手 + 二手",
+    "sourceTypeEn": "First + Second-hand"
+  },
+  {
+    "name": "5. 文档结构清晰度",
+    "nameEn": "5. Documentation clarity",
+    "weight": "10%",
+    "veto": false,
+    "importance": "影响可维护性和团队协作。结构混乱的 skill 难以复用。",
+    "importanceEn": "Affects maintainability and team collaboration. A poorly structured skill is hard to reuse.",
+    "source": "来自 skill-reviewer 的 architecture lens 和 parseability lens。",
+    "sourceEn": "From skill-reviewer's architecture lens and parseability lens.",
+    "sourceType": "二手",
+    "sourceTypeEn": "Second-hand"
+  },
+  {
+    "name": "6. 活跃度",
+    "nameEn": "6. Activity",
+    "weight": "10%",
+    "veto": true,
+    "importance": "AI 工具链、模型 API、agent 协议变化极快，长期不更新的 skill 可能失效。",
+    "importanceEn": "AI toolchains, model APIs and agent protocols change fast — long-unmaintained skills may silently break.",
+    "source": "GitHub `pushedAt` / `updatedAt`；Anthropic README 免责声明强调 \"Always test skills thoroughly\"。",
+    "sourceEn": "GitHub `pushedAt` / `updatedAt`; Anthropic's README disclaimer stresses \"Always test skills thoroughly\".",
+    "sourceType": "一手",
+    "sourceTypeEn": "First-hand"
+  },
+  {
+    "name": "7. 可信与安全",
+    "nameEn": "7. Trust & safety",
+    "weight": "10%",
+    "veto": true,
+    "importance": "skill 可执行脚本、读写文件、调用网络，来源不明可能带来数据泄露或破坏。",
+    "importanceEn": "Skills can run scripts, read/write files, call the network — unverified sources risk data leakage or destruction.",
+    "source": "skill-reviewer 的 safety lens 检查备份、恢复、敏感操作；许可证信息来自 GitHub API。",
+    "sourceEn": "skill-reviewer's safety lens checks backups, recovery, and sensitive operations; license info comes from the GitHub API.",
+    "sourceType": "一手 + 二手",
+    "sourceTypeEn": "First + Second-hand"
+  }
+]

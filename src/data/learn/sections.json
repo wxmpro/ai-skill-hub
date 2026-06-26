@@ -1,0 +1,66 @@
+[
+  {
+    "title": "1. SKILL.md Specification Anatomy",
+    "titleZh": "1. SKILL.md 规范解剖",
+    "source": "Anthropic's official anthropics/skills README",
+    "sourceZh": "Anthropic 官方 anthropics/skills README",
+    "body": "A compliant SKILL.md must contain: YAML frontmatter (name + description) + Markdown body. The frontmatter requires at least two fields: name (lowercase, hyphenated) and description (explains when to use it).",
+    "bodyZh": "一份合规的 SKILL.md 必须包含：YAML frontmatter（name + description）+ 主体 Markdown。frontmatter 至少两字段：name（小写连字符）、description（说明何时使用）。"
+  },
+  {
+    "title": "2. Required Markdown Sections",
+    "titleZh": "2. 必备的 Markdown 区块",
+    "source": "Anthropic's official template-skill",
+    "sourceZh": "Anthropic 官方 template-skill",
+    "body": "Recommended sections: `## Examples` (concrete usage cases), `## Guidelines` (design principles), `## Limitations` (explicit out-of-scope cases). These three decide whether your skill is \"usable\" or \"easily misused\".",
+    "bodyZh": "推荐包含：`## Examples`（具体使用案例）、`## Guidelines`（设计原则）、`## Limitations`（明确不适用场景）。这三块决定你的 skill 是「可用的」还是「易误用的」。"
+  },
+  {
+    "title": "3. Supporting Resource Structure",
+    "titleZh": "3. 配套资源结构",
+    "source": "agentskills/agentskills standard",
+    "sourceZh": "agentskills/agentskills 标准",
+    "body": "Complete skill directory: `SKILL.md` (required) + `scripts/` (executable code) + `references/` (reference docs) + `assets/` (template resources). Supporting resources let the agent call real tools at execution time, not just read prompts.",
+    "bodyZh": "完整 skill 目录：`SKILL.md`（必需）+ `scripts/`（可执行代码）+ `references/`（参考文档）+ `assets/`（模板资源）。配套资源让 agent 在执行阶段能调用实际工具，而不是只读提示词。"
+  },
+  {
+    "title": "4. The Secret to a Good Description",
+    "titleZh": "4. 写好 description 的秘诀",
+    "source": "Anthropic skill-discovery mechanism",
+    "sourceZh": "Anthropic skill-discovery 机制",
+    "body": "The description is the agent's only basis for deciding whether to activate this skill. Key points: (1) state clearly what problem it solves; (2) specify input and output; (3) list keywords for applicable scenarios, to facilitate trigger matching.",
+    "bodyZh": "description 是 agent 决定是否激活该 skill 的唯一依据。要点：(1) 说清楚解决什么问题；(2) 说明输入和输出；(3) 列出适用场景关键词，方便触发匹配。"
+  },
+  {
+    "title": "5. Multi-Agent Compatible Writing",
+    "titleZh": "5. 多 agent 兼容写法",
+    "source": "Vercel skills CLI README",
+    "sourceZh": "Vercel skills CLI README",
+    "body": "To be compatible with Claude Code, Cursor, Codex, Copilot: avoid hardcoding any agent's proprietary commands in SKILL.md; use relative paths; let scripts use Node/Python — common runtimes.",
+    "bodyZh": "要兼容 Claude Code、Cursor、Codex、Copilot：避免在 SKILL.md 中硬编码某个 agent 的专有命令；用相对路径；scripts 使用 Node/Python 通用运行时。"
+  },
+  {
+    "title": "6. Common Mistakes and Anti-Patterns",
+    "titleZh": "6. 常见错误与反例",
+    "source": "skill-reviewer findings",
+    "sourceZh": "skill-reviewer 的发现",
+    "body": "Frequent mistakes: (1) vague descriptions like \"everything\" or \"all\"; (2) no examples, so users can't tell when to use it; (3) containing unexplained dangerous ops like rm/mv; (4) missing description in frontmatter; (5) referencing paths that don't exist.",
+    "bodyZh": "高频错误：(1) 描述模糊如「万能」「所有」；(2) 无示例，用户无法判断何时用；(3) 包含未说明的 rm/mv 等危险操作；(4) frontmatter 缺 description；(5) 引用路径不存在。"
+  },
+  {
+    "title": "7. Pre-Release Self-Check",
+    "titleZh": "7. 上线前自检清单",
+    "source": "Integrating the 7-dimension criteria",
+    "sourceZh": "整合 7 维评价标准",
+    "body": "Before release, self-assess with the 7-dimension table: Spec 20% + Compat 15% + Description 20% + Examples 15% + Docs 10% + Activity 10% + Safety 10%. Below 3.0 — don't release; 3.0–4.0 — annotate limitations in the README; ≥ 4.0 — ship it.",
+    "bodyZh": "发布前用 7 维表自评：规范 20% + 兼容 15% + 描述 20% + 示例边界 15% + 文档 10% + 活跃 10% + 安全 10%。低于 3.0 不要发；3.0-4.0 在 README 标注 limitations；≥ 4.0 可发。"
+  },
+  {
+    "title": "8. Continuous Iteration Loop",
+    "titleZh": "8. 持续迭代循环",
+    "source": "skills-benchmarks design idea",
+    "sourceZh": "skills-benchmarks 设计思路",
+    "body": "Write it → run Terryc21/skill-reviewer → fix finding cards → test on real tasks 3–5 times → collect issues → improve the description for activation accuracy → bump the version.",
+    "bodyZh": "写完 → 用 Terryc21/skill-reviewer 跑一遍 → 修复 finding cards → 真实任务测 3-5 次 → 收集 issue → 改 description 提升激活准确率 → 更新版本号。"
+  }
+]

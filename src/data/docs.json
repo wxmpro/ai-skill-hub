@@ -1,0 +1,74 @@
+[
+  {
+    "title": "📘Anthropic Claude Code Skills Docs",
+    "url": "https://docs.anthropic.com/en/docs/claude-code/skills",
+    "icon": "📘",
+    "description": "Claude Code 官方 skill 文档，包含创建、安装、使用技能的方法。"
+  },
+  {
+    "title": "❓What are skills? (Anthropic Support)",
+    "url": "https://support.anthropic.com/en/articles/12512176-what-are-skills",
+    "icon": "❓",
+    "description": "官方对 skill 概念的基础解释。"
+  },
+  {
+    "title": "📝Equipping Agents for the Real World",
+    "url": "https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+    "icon": "📝",
+    "description": "Anthropic 工程博客，介绍 Agent Skills 的设计哲学。"
+  },
+  {
+    "title": "📋Agent Skills Specification",
+    "url": "https://agentskills.io/",
+    "icon": "📋",
+    "description": "Agent Skills 开放标准，定义 SKILL.md 格式和 progressive disclosure 机制。"
+  },
+  {
+    "title": "🐙Anthropic Official Skills Repo",
+    "url": "https://github.com/anthropics/skills",
+    "icon": "🐙",
+    "description": "Anthropic 官方 skill 示例仓库，包含 docx/pdf/pptx/xlsx 等生产级技能。"
+  },
+  {
+    "title": "▲Vercel Skills CLI",
+    "url": "https://github.com/vercel-labs/skills",
+    "icon": "▲",
+    "description": "Vercel 开源的 skills CLI，支持 70+ agent，定义了 npx skills 工作流。"
+  },
+  {
+    "title": "🅾️OpenAI Skills for Codex",
+    "url": "https://github.com/openai/skills",
+    "icon": "🅾️",
+    "description": "OpenAI 官方 Codex skills catalog。"
+  },
+  {
+    "title": "🐱GitHub Skills Organization",
+    "url": "https://github.com/skills",
+    "icon": "🐱",
+    "description": "GitHub 官方交互式学习课程，不是 AI skill，但同名生态。"
+  },
+  {
+    "title": "🔌Model Context Protocol",
+    "url": "https://modelcontextprotocol.io/",
+    "icon": "🔌",
+    "description": "MCP 官方文档。MCP 与 skill 高度相关，很多 skill 依赖 MCP server。"
+  },
+  {
+    "title": "🦜LangChain Skills Benchmarks",
+    "url": "https://github.com/langchain-ai/skills-benchmarks",
+    "icon": "🦜",
+    "description": "LangChain 官方的 skill benchmark 框架，展示如何动态验证 skill 效果。"
+  },
+  {
+    "title": "🖱️Cursor Documentation",
+    "url": "https://docs.cursor.com/",
+    "icon": "🖱️",
+    "description": "Cursor 编辑器官方文档，涉及 Cursor rules 和 agent 配置。"
+  },
+  {
+    "title": "🤖GitHub Copilot Docs",
+    "url": "https://docs.github.com/en/copilot",
+    "icon": "🤖",
+    "description": "GitHub Copilot 官方文档，含 skills、extensions、agent mode。"
+  }
+]

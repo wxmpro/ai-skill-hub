@@ -1,0 +1,28 @@
+{
+  "name": "ai-skill-hub",
+  "version": "1.0.0",
+  "description": "AI Skill 资源导航 + 学习站：发现、评价、学会写优质 skill",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "ai",
+    "skill",
+    "claude-code",
+    "codex",
+    "cursor",
+    "agent"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "marked": "^18.0.5",
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "创作类": {
+    "icon": "📘",
+    "desc": "教 Claude 怎么写结构化文档、内部沟通",
+    "skills": ["doc-coauthoring", "internal-comms"]
+  },
+  "设计/视觉": {
+    "icon": "🎨",
+    "desc": "算法艺术、品牌设计、画布、主题、Web artifact",
+    "skills": ["algorithmic-art", "brand-guidelines", "canvas-design", "frontend-design", "theme-factory", "web-artifacts-builder"]
+  },
+  "工具能力": {
+    "icon": "🛠️",
+    "desc": "Claude API、MCP、Skill 创建、Web 测试",
+    "skills": ["claude-api", "mcp-builder", "skill-creator", "webapp-testing"]
+  },
+  "Office 文档": {
+    "icon": "📄",
+    "desc": "PDF / Word / PPT / Excel 全套处理",
+    "skills": ["pdf", "docx", "pptx", "xlsx"]
+  },
+  "趣味": {
+    "icon": "✨",
+    "desc": "Slack GIF 制作",
+    "skills": ["slack-gif-creator"]
+  }
+}

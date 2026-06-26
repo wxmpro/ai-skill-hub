@@ -1,17 +1,26 @@
 # AI Skill Hub
 
-> 一个聚焦 AI Skill（Claude Code / Cursor / Codex / Agent Skill）的发现、评价与导航的网站项目。
+> AI Skill 资源导航 + 学习站：发现、评价、学会写优质 skill
 
 ---
 
 ## 项目简介
 
-本项目旨在构建一个静态网站，帮助用户：
+本项目是一个**静态内容站**，帮助用户：
 
-1. **发现 Skill**：快速找到 Claude Code、Cursor、Codex、OpenClaw 等 agent 生态中的优质 skill。
-2. **学习规范**：理解 Agent Skills 官方规范、顶级公司文档和评价标准。
-3. **评价 Skill**：使用可量化的 7 维度评分体系判断 skill 是否值得试用。
-4. **参考示例**：查看经过验证的优质 skill 标杆。
+1. **发现 Skill** — 快速找到 Claude Code、Cursor、Codex、OpenClaw 等 agent 生态中的优质 skill
+2. **学习规范** — 理解 Agent Skills 官方规范、顶级公司文档和评价标准
+3. **评价 Skill** — 使用可量化的 7 维度评分体系判断 skill 是否值得试用
+4. **学会写** — 通过 8 节教程，从规范解剖到反例分析，手把手写出优质 skill
+
+---
+
+## 技术栈
+
+- **Next.js 16** App Router（静态导出 `output: 'export'`）
+- **React 19**
+- **静态部署**到 GitHub Pages / Vercel / 任何静态托管
+- **零外部 UI 库**：手写 CSS，无 Tailwind 依赖
 
 ---
 
@@ -19,42 +28,86 @@
 
 ```
 02-skill/
-├── index.html              # 网站主页（当前版本）
-├── assets/
-│   ├── css/style.css       # 样式文件（后续拆分）
-│   └── js/main.js          # 脚本文件（后续拆分）
-├── chat-outputs/           # 本次会话的原始输出文件（已加入 .gitignore）
-├── docs/                   # 项目文档
-└── README.md               # 本文件
+├── out/                          # 静态构建产物（gitignored）
+├── src/
+│   ├── app/
+│   │   ├── layout.jsx           # 全局布局
+│   │   ├── page.jsx             # 首页（导航卡片）
+│   │   ├── globals.css          # 全局样式
+│   │   ├── marketplaces/page.jsx
+│   │   ├── docs/page.jsx
+│   │   ├── criteria/page.jsx
+│   │   ├── examples/page.jsx
+│   │   └── learn/page.jsx
+│   ├── components/
+│   │   ├── layout/              # Header, Footer
+│   │   ├── sections/            # （预留）
+│   │   └── ui/                  # （预留）
+│   └── data/
+│       ├── nav.js               # 顶部导航配置
+│       ├── marketplaces.json    # 20 个 marketplace
+│       ├── docs.json            # 12 个官方文档
+│       ├── criteria.json        # 7 维评价标准
+│       └── examples.json        # 6 个优质示例
+├── next.config.mjs
+├── jsconfig.json                # @/* 路径别名
+├── package.json
+└── chat-outputs/                # 本次会话原始输出（gitignored）
 ```
 
 ---
 
-## 本地预览
-
-由于 `index.html` 是静态页面，可直接用浏览器打开，或启动本地 HTTP 服务器：
+## 本地开发
 
 ```bash
-# 方式一：直接用浏览器打开
-open index.html
+# 安装依赖
+npm install
 
-# 方式二：Python 临时服务器
-python -m http.server 3000
-open http://localhost:3000
+# 启动开发服务器（热更新）
+npm run dev
+# → http://localhost:3000
 
-# 方式三：Node.js serve
-npx serve .
+# 生产构建（生成静态文件到 out/）
+npm run build
+
+# 本地预览构建结果
+npx serve out
+# → http://localhost:3000
 ```
+
+---
+
+## 路由
+
+| 路径 | 内容 |
+|---|---|
+| `/` | 首页：5 个分区的导航卡片 |
+| `/marketplaces/` | 20 个 skill / MCP / agent 入口 |
+| `/docs/` | 12 个顶级公司实验室文档 |
+| `/criteria/` | 7 维评价标准 + 评分公式 |
+| `/examples/` | 6 个优质 skill 标杆 |
+| `/learn/` | 8 节教程：如何写优质 skill |
+
+---
+
+## 部署
+
+`npm run build` 会在 `out/` 目录生成纯静态文件，可以直接部署到：
+
+- **GitHub Pages**：推到 `gh-pages` 分支
+- **Vercel**：`vercel deploy` 自动识别
+- **Netlify**：`netlify deploy --dir=out`
+- **任何静态托管**：上传 `out/` 全部内容
 
 ---
 
 ## 后续计划
 
-- [ ] 将内联 CSS/JS 拆分为独立文件
-- [ ] 增加搜索和筛选功能
-- [ ] 接入 GitHub API 自动更新 skill 数据
-- [ ] 添加评分工具页面
-- [ ] 部署到 GitHub Pages / Vercel
+- [ ] 加搜索 / 筛选功能（按 tag 筛选 marketplace）
+- [ ] 接入 GitHub API 自动更新数据
+- [ ] 加评分工具页面（输入 skill URL 自动打分）
+- [ ] 中英双语化
+- [ ] 加 RSS 订阅
 
 ---
 
@@ -65,6 +118,7 @@ npx serve .
 - Vercel skills CLI 文档
 - OpenAI skills catalog
 - GitHub REST API / `gh` CLI 实时检索数据
+- Terryc21/skill-reviewer、LangChain skills-benchmarks 等评测项目
 
 ---
 

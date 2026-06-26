@@ -1,0 +1,38 @@
+[
+  {
+    "id": "anthropics",
+    "label": "Anthropic",
+    "labelEn": "Anthropic",
+    "emoji": "🅰️",
+    "desc": "Anthropic 官方 anthropics/skills 仓库（17 个生产级 skill）",
+    "descEn": "Anthropic's official anthropics/skills repository (17 production-grade skills).",
+    "repo": "anthropics/skills"
+  },
+  {
+    "id": "openai",
+    "label": "OpenAI",
+    "labelEn": "OpenAI",
+    "emoji": "🅾️",
+    "desc": "OpenAI 官方 openai/skills 仓库（.system 系统级 + .curated 精选）",
+    "descEn": "OpenAI's official openai/skills repository (.system core + .curated sets).",
+    "repo": "openai/skills"
+  },
+  {
+    "id": "google",
+    "label": "Google Gemini",
+    "labelEn": "Google Gemini",
+    "emoji": "🟦",
+    "desc": "Google Gemini 官方 gemini-skills 仓库",
+    "descEn": "Google Gemini's official gemini-skills repository.",
+    "repo": "google-gemini/gemini-skills"
+  },
+  {
+    "id": "vercel",
+    "label": "Vercel Labs",
+    "labelEn": "Vercel Labs",
+    "emoji": "▲",
+    "desc": "Vercel Labs 官方 skills 仓库",
+    "descEn": "Vercel Labs' official skills repository.",
+    "repo": "vercel-labs/skills"
+  }
+]

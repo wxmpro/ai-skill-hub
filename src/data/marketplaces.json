@@ -1,0 +1,490 @@
+[
+  {
+    "title": "Skills Directory (OpenSkills)",
+    "url": "https://www.skillsdirectory.com/",
+    "icon": "🔒",
+    "tag": "Registry",
+    "description": "96,886 个经过安全扫描的 skill，跨 Claude Code / Cursor / Windsurf / Aider / Codex 五家客户端通用",
+    "meta": [
+      "🌐 网站",
+      "96K+ skill",
+      "10K⭐ OpenSkills"
+    ],
+    "stars": 10498,
+    "githubRepo": "numman-ali/openskills",
+    "type": "website",
+    "tagline": "9.6 万 skill 的安全目录，内置 50+ 安全规则扫描，CLI 跨 5 家 agent 通用",
+    "website": "https://www.skillsdirectory.com/",
+    "taglineEn": "96K+ skill directory with built-in security scanning; CLI covers 5 agents (Claude Code, Cursor, Windsurf, Aider, Codex)."
+  },
+  {
+    "title": "Vercel Skills",
+    "url": "https://skills.sh/",
+    "icon": "▲",
+    "tag": "Marketplace",
+    "description": "Vercel Labs 官方维护的开源 skills 市场，支持 20+ AI 编程工具",
+    "meta": [
+      "🌐 网站",
+      "Vercel 官方"
+    ],
+    "stars": null,
+    "githubRepo": "vercel-labs/skills",
+    "type": "website",
+    "tagline": "Vercel Labs 官方 skills 市场，一条命令 `npx skills add` 安装到 Claude Code / Cursor / Copilot",
+    "website": "https://skills.sh/",
+    "taglineEn": "Vercel Labs official skill marketplace — install to Claude Code / Cursor / Copilot with one `npx skills add` command."
+  },
+  {
+    "title": "Agent Skills",
+    "url": "https://agentskills.io/",
+    "icon": "🅰️",
+    "tag": "Registry",
+    "description": "Agent Skills 开放标准，由 Anthropic 起草，已被 40+ 客户端采用",
+    "meta": [
+      "🌐 网站",
+      "标准站"
+    ],
+    "stars": null,
+    "githubRepo": "agentskills/agentskills",
+    "type": "website",
+    "tagline": "Agent Skills 标准的官方主页，SKILL.md 格式说明 + 40+ 兼容客户端清单",
+    "website": "https://agentskills.io/",
+    "taglineEn": "Official home of the Agent Skills standard — SKILL.md format spec plus a list of 40+ compatible clients."
+  },
+  {
+    "title": "Awesome Claude",
+    "url": "https://awesomeclaude.ai/",
+    "icon": "🅰️",
+    "tag": "聚合导航",
+    "description": "Claude AI 全生态资源导航：官方 SDK、IDE 扩展、awesome 列表、教学课程",
+    "meta": [
+      "🌐 网站"
+    ],
+    "stars": null,
+    "githubRepo": "webfuse-com/awesome-claude",
+    "type": "website",
+    "tagline": "Claude 全栈资源导航：官方 SDK、Awesome 列表、VS Code/JetBrains 扩展、教学课",
+    "website": "https://awesomeclaude.ai/",
+    "taglineEn": "A full-stack Claude resource navigator: official SDKs, Awesome lists, VS Code / JetBrains extensions, learning courses."
+  },
+  {
+    "title": "CrossAITools",
+    "url": "https://crossaitools.com/",
+    "icon": "🔧",
+    "tag": "聚合导航",
+    "description": "浏览并安装 Claude Code 插件、skills 和 MCP 服务器",
+    "meta": [],
+    "stars": null,
+    "githubRepo": null,
+    "type": "website",
+    "tagline": "浏览并安装 Claude Code 插件、skills 和 MCP 服务器",
+    "website": "https://crossaitools.com/",
+    "taglineEn": "Browse and install Claude Code plugins, skills, and MCP servers."
+  },
+  {
+    "title": "42plugin",
+    "url": "https://42plugin.com/",
+    "icon": "💧",
+    "tag": "聚合导航",
+    "type": "website",
+    "stars": 0,
+    "tagline": "活水插件生态：AI 插件发现、分发、安装、管理的 CLI 工具",
+    "meta": [
+      "🌐 网站",
+      "4000+ 插件",
+      "100K+ 用户"
+    ],
+    "website": "https://42plugin.com/",
+    "taglineEn": "The Huoshui plugin ecosystem — discovery, distribution, installation, and management of AI plugins via CLI."
+  },
+  {
+    "title": "SkillsHub.wtf",
+    "url": "https://skillshub.wtf/",
+    "icon": "🧩",
+    "tag": "Registry",
+    "description": "一次 API 调用获取最合适的 skill",
+    "meta": [],
+    "stars": null,
+    "githubRepo": null,
+    "type": "website",
+    "tagline": "一次 API 调用获取最合适的 skill",
+    "website": "https://skillshub.wtf/",
+    "taglineEn": "Get the most suitable skill via a single API call."
+  },
+  {
+    "title": "skills.sh",
+    "url": "https://skills.sh/",
+    "icon": "🛡️",
+    "tag": "Registry",
+    "description": "一条命令浏览并安装 agent skill",
+    "meta": [],
+    "stars": null,
+    "githubRepo": null,
+    "type": "website",
+    "tagline": "一条命令浏览并安装 agent skill",
+    "website": "https://skills.sh/",
+    "taglineEn": "Browse and install agent skills with a single command."
+  },
+  {
+    "title": "Awesome Claude Skills",
+    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "icon": "🤖",
+    "tag": "精选列表",
+    "description": "精选的 Claude Skills 资源与工具列表，帮你定制 Claude AI 工作流",
+    "meta": [
+      "65,945 ⭐"
+    ],
+    "stars": 65945,
+    "githubRepo": "ComposioHQ/awesome-claude-skills",
+    "type": "github",
+    "tagline": "精选的 Claude Skills 资源与工具列表，帮你定制 Claude AI 工作流",
+    "taglineEn": "A curated list of Claude Skills resources and tools, helping you customize your Claude AI workflow."
+  },
+  {
+    "title": "Awesome OpenClaw Skills",
+    "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+    "icon": "🦞",
+    "tag": "精选列表",
+    "description": "5,400+ OpenClaw skills 大全，来自官方 OpenClaw Skills Registry",
+    "meta": [
+      "50,624 ⭐"
+    ],
+    "stars": 50624,
+    "githubRepo": "VoltAgent/awesome-openclaw-skills",
+    "type": "github",
+    "tagline": "5,400+ OpenClaw skills 大全，来自官方 OpenClaw Skills Registry",
+    "website": "https://clawskills.sh/",
+    "homepage": "https://clawskills.sh/",
+    "taglineEn": "5,400+ OpenClaw skills, sourced from the official OpenClaw Skills Registry."
+  },
+  {
+    "title": "Awesome Claude Code",
+    "url": "https://github.com/hesreallyhim/awesome-claude-code",
+    "icon": "😎",
+    "tag": "精选列表",
+    "description": "Claude Code 的 skills、hooks、commands、plugins 优质资源合集",
+    "meta": [
+      "47,322 ⭐"
+    ],
+    "stars": 47322,
+    "githubRepo": "hesreallyhim/awesome-claude-code",
+    "type": "github",
+    "tagline": "Claude Code 的 skills、hooks、commands、plugins 优质资源合集",
+    "taglineEn": "Quality resource collection for Claude Code: skills, hooks, commands, plugins."
+  },
+  {
+    "title": "wshobson/agents",
+    "url": "https://github.com/wshobson/agents",
+    "icon": "🤖",
+    "tag": "Marketplace",
+    "type": "github",
+    "githubRepo": "wshobson/agents",
+    "stars": 37205,
+    "tagline": "跨 harness 的 agentic plugin 市场，支持 Claude Code、Codex CLI、Cursor、OpenClaw 等多 agent",
+    "meta": [
+      "37,205 ⭐"
+    ],
+    "homepage": "https://sethhobson.com",
+    "taglineEn": "Cross-harness agentic plugin marketplace — supports Claude Code, Codex CLI, Cursor, OpenClaw and more."
+  },
+  {
+    "title": "OpenAI Skills",
+    "url": "https://github.com/openai/skills",
+    "icon": "🅾️",
+    "tag": "Registry",
+    "description": "OpenAI 官方的 Codex skills 目录",
+    "meta": [
+      "22,878 ⭐"
+    ],
+    "stars": 22878,
+    "githubRepo": "openai/skills",
+    "type": "github",
+    "tagline": "OpenAI 官方的 Codex skills 目录",
+    "taglineEn": "OpenAI's official Codex skills catalog."
+  },
+  {
+    "title": "PM Skills Marketplace",
+    "url": "https://github.com/phuryn/pm-skills",
+    "icon": "🚀",
+    "tag": "Marketplace",
+    "description": "产品经理的 agentic skills 与 plugins 市场，100+ 从发现到上线的技能",
+    "meta": [
+      "21,122 ⭐"
+    ],
+    "stars": 21122,
+    "githubRepo": "phuryn/pm-skills",
+    "type": "github",
+    "tagline": "产品经理的 agentic skills 与 plugins 市场，100+ 从发现到上线的技能",
+    "website": "https://www.productcompass.pm/p/pm-skills-2-red-team-ship",
+    "homepage": "https://www.productcompass.pm/p/pm-skills-2-red-team-ship",
+    "taglineEn": "Agentic skills and plugins marketplace for product managers — 100+ skills covering discovery through launch."
+  },
+  {
+    "title": "ClawHub",
+    "url": "https://github.com/openclaw/clawhub",
+    "icon": "🦞",
+    "tag": "Registry",
+    "description": "OpenClaw 的 Skill + Plugin 官方注册中心",
+    "meta": [
+      "9,035 ⭐"
+    ],
+    "stars": 9035,
+    "githubRepo": "openclaw/clawhub",
+    "type": "github",
+    "tagline": "OpenClaw 的 Skill + Plugin 官方注册中心",
+    "website": "https://clawhub.ai",
+    "homepage": "https://clawhub.ai",
+    "taglineEn": "Official Skill + Plugin registry for OpenClaw."
+  },
+  {
+    "title": "Tech Leads Club",
+    "url": "https://github.com/tech-leads-club/agent-skills",
+    "icon": "✅",
+    "tag": "Registry",
+    "description": "面向专业 AI 编码 agent 的安全、经过验证的 skill 注册中心",
+    "meta": [
+      "4,729 ⭐"
+    ],
+    "stars": 4729,
+    "githubRepo": "tech-leads-club/agent-skills",
+    "type": "github",
+    "tagline": "面向专业 AI 编码 agent 的安全、经过验证的 skill 注册中心",
+    "website": "https://agent-skills.techleads.club/",
+    "homepage": "https://agent-skills.techleads.club/",
+    "taglineEn": "A vetted skill registry built for professional AI coding agents."
+  },
+  {
+    "title": "iFlytek SkillHub",
+    "url": "https://github.com/iflytek/skillhub",
+    "icon": "🏢",
+    "tag": "Registry",
+    "description": "企业级自托管 agent skill 注册中心，支持 RBAC 与审计日志",
+    "meta": [
+      "3,602 ⭐"
+    ],
+    "stars": 3602,
+    "githubRepo": "iflytek/skillhub",
+    "type": "github",
+    "tagline": "企业级自托管 agent skill 注册中心，支持 RBAC 与审计日志",
+    "website": "https://skill.xfyun.cn",
+    "homepage": "https://skill.xfyun.cn",
+    "taglineEn": "Enterprise self-hosted agent skill registry with RBAC and audit logs."
+  },
+  {
+    "title": "Claude Code Skills",
+    "url": "https://github.com/daymade/claude-code-skills",
+    "icon": "🛒",
+    "tag": "Marketplace",
+    "description": "面向生产工作流的专业 Claude Code skills 市场",
+    "meta": [
+      "1,217 ⭐"
+    ],
+    "stars": 1217,
+    "githubRepo": "daymade/claude-code-skills",
+    "type": "github",
+    "tagline": "面向生产工作流的专业 Claude Code skills 市场",
+    "taglineEn": "Professional Claude Code skills marketplace targeting production workflows."
+  },
+  {
+    "title": "qufei1993/skills-hub",
+    "url": "https://github.com/qufei1993/skills-hub",
+    "icon": "🖥️",
+    "tag": "聚合导航",
+    "type": "github",
+    "githubRepo": "qufei1993/skills-hub",
+    "stars": 1077,
+    "tagline": "跨平台桌面 app 统一管理 Agent Skills，一处安装、多端同步",
+    "meta": [
+      "1,077 ⭐"
+    ],
+    "taglineEn": "A cross-platform desktop app for unified Agent Skills management — install once, sync across devices."
+  },
+  {
+    "title": "Binance Skills Hub",
+    "url": "https://github.com/binance/binance-skills-hub",
+    "icon": "💰",
+    "tag": "Marketplace",
+    "description": "币安开放的 crypto skills 市场，给 AI agents 提供原生加密能力",
+    "meta": [
+      "911 ⭐"
+    ],
+    "stars": 911,
+    "githubRepo": "binance/binance-skills-hub",
+    "type": "github",
+    "tagline": "币安开放的 crypto skills 市场，给 AI agents 提供原生加密能力",
+    "taglineEn": "Binance's open crypto skills marketplace, giving AI agents native crypto capabilities."
+  },
+  {
+    "title": "Awesome Codex Plugins",
+    "url": "https://github.com/hashgraph-online/awesome-codex-plugins",
+    "icon": "🦊",
+    "tag": "精选列表",
+    "type": "github",
+    "githubRepo": "hashgraph-online/awesome-codex-plugins",
+    "stars": 533,
+    "tagline": "OpenAI Codex plugins、skills 精选列表，#1 Codex plugins 导航",
+    "meta": [
+      "533 ⭐"
+    ],
+    "homepage": "https://hol.org/registry/plugins",
+    "taglineEn": "A curated list of OpenAI Codex plugins and skills — the #1 Codex plugins navigator."
+  },
+  {
+    "title": "Awesome Cursor Skills",
+    "url": "https://github.com/spencerpauly/awesome-cursor-skills",
+    "icon": "🖱️",
+    "tag": "精选列表",
+    "description": "Cursor 编辑器专用 skills 精选列表",
+    "meta": [
+      "481 ⭐"
+    ],
+    "stars": 481,
+    "githubRepo": "spencerpauly/awesome-cursor-skills",
+    "type": "github",
+    "tagline": "Cursor 编辑器专用 skills 精选列表",
+    "website": "https://cursor.com/",
+    "homepage": "https://cursor.com/",
+    "taglineEn": "A curated list of skills specific to the Cursor editor."
+  },
+  {
+    "title": "Claude Skill Registry",
+    "url": "https://github.com/majiayu000/claude-skill-registry",
+    "icon": "📋",
+    "tag": "Registry",
+    "description": "最全面的 Claude Code skills 注册中心，带 Web 搜索界面",
+    "meta": [
+      "446 ⭐"
+    ],
+    "stars": 446,
+    "githubRepo": "majiayu000/claude-skill-registry",
+    "type": "github",
+    "tagline": "最全面的 Claude Code skills 注册中心，带 Web 搜索界面",
+    "website": "https://majiayu000.github.io/claude-skill-registry/",
+    "homepage": "https://majiayu000.github.io/claude-skill-registry/",
+    "taglineEn": "The most comprehensive Claude Code skills registry, with a web search interface."
+  },
+  {
+    "title": "thesis-skill-hub",
+    "url": "https://github.com/DQXCJ-a11y/thesis-skill-hub",
+    "icon": "🎓",
+    "tag": "精选列表",
+    "type": "github",
+    "githubRepo": "DQXCJ-a11y/thesis-skill-hub",
+    "stars": 143,
+    "tagline": "硕士论文审查与写作 SKILL 聚合项目，归纳可直接使用的 SKILL.md",
+    "meta": [
+      "143 ⭐"
+    ],
+    "taglineEn": "A thesis review & writing SKILL aggregation project — distills SKILL.md files ready to use."
+  },
+  {
+    "title": "bitwarden/ai-plugins",
+    "url": "https://github.com/bitwarden/ai-plugins",
+    "icon": "🔐",
+    "tag": "Marketplace",
+    "type": "github",
+    "githubRepo": "bitwarden/ai-plugins",
+    "stars": 119,
+    "tagline": "Bitwarden 官方出品的 AI 插件市场",
+    "meta": [
+      "119 ⭐"
+    ],
+    "taglineEn": "Bitwarden's official AI plugin marketplace."
+  },
+  {
+    "title": "Awesome Claude Plugins",
+    "url": "https://github.com/Chat2AnyLLM/awesome-claude-plugins",
+    "icon": "🧠",
+    "tag": "精选列表",
+    "type": "github",
+    "githubRepo": "Chat2AnyLLM/awesome-claude-plugins",
+    "stars": 107,
+    "tagline": "精选的 Claude marketplace 和 plugins 资源合集",
+    "meta": [
+      "107 ⭐"
+    ],
+    "homepage": "https://chat2anyllm.github.io/awesome-claude-plugins/",
+    "taglineEn": "A curated resource collection of Claude marketplaces and plugins."
+  },
+  {
+    "title": "Skilluse",
+    "url": "https://github.com/skilluse/skilluse",
+    "icon": "⚡",
+    "tag": "Registry",
+    "description": "Agent Skills 注册中心与 CLI 工具",
+    "meta": [
+      "55 ⭐"
+    ],
+    "stars": 55,
+    "githubRepo": "skilluse/skilluse",
+    "type": "github",
+    "tagline": "Agent Skills 注册中心与 CLI 工具",
+    "website": "https://skilluse.dev",
+    "homepage": "https://skilluse.dev",
+    "taglineEn": "An Agent Skills registry with CLI tooling."
+  },
+  {
+    "title": "Skillnote",
+    "url": "https://github.com/luna-prompts/skillnote",
+    "icon": "📝",
+    "tag": "Registry",
+    "description": "开源 skill 注册中心，支持 Claude Code、Cursor、Codex 等多 agent",
+    "meta": [
+      "55 ⭐"
+    ],
+    "stars": 55,
+    "githubRepo": "luna-prompts/skillnote",
+    "type": "github",
+    "tagline": "开源 skill 注册中心，支持 Claude Code、Cursor、Codex 等多 agent",
+    "website": "https://www.lunaprompts.com",
+    "homepage": "https://www.lunaprompts.com",
+    "taglineEn": "An open-source skill registry supporting Claude Code, Cursor, Codex and more."
+  },
+  {
+    "title": "skillshub (ComeOnOliver)",
+    "url": "https://github.com/ComeOnOliver/skillshub",
+    "icon": "🌐",
+    "tag": "Registry",
+    "description": "5,000+ 来自 500+ 仓库的 skills，token 优化的 skill 解析 API",
+    "meta": [
+      "53 ⭐"
+    ],
+    "stars": 53,
+    "githubRepo": "ComeOnOliver/skillshub",
+    "type": "github",
+    "tagline": "5,000+ 来自 500+ 仓库的 skills，token 优化的 skill 解析 API",
+    "website": "https://skillshub.wtf",
+    "homepage": "https://skillshub.wtf",
+    "taglineEn": "5,000+ skills from 500+ repos, with a token-optimized skill parsing API."
+  },
+  {
+    "title": "ZeroClaw Skills",
+    "url": "https://github.com/zeroclaw-labs/zeroclaw-skills",
+    "icon": "0️⃣",
+    "tag": "Registry",
+    "description": "ZeroClaw 官方 skill 注册中心，社区贡献的 agent skills 与工作流",
+    "meta": [
+      "40 ⭐"
+    ],
+    "stars": 40,
+    "githubRepo": "zeroclaw-labs/zeroclaw-skills",
+    "type": "github",
+    "tagline": "ZeroClaw 官方 skill 注册中心，社区贡献的 agent skills 与工作流",
+    "taglineEn": "ZeroClaw's official skill registry — community-contributed agent skills and workflows."
+  },
+  {
+    "title": "SkillX.sh",
+    "url": "https://skillx.sh/",
+    "icon": "⭐",
+    "tag": "Marketplace",
+    "description": "你的 AI 智能体唯一需要的 skill",
+    "meta": [],
+    "stars": null,
+    "githubRepo": "nextlevelbuilder/skillx",
+    "type": "github",
+    "tagline": "你的 AI 智能体唯一需要的 skill",
+    "website": "https://skillx.sh/",
+    "homepage": "https://skillx.sh",
+    "taglineEn": "The only skill your AI agent will ever need."
+  }
+]

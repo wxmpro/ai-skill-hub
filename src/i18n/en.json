@@ -1,0 +1,106 @@
+{
+  "common": {
+    "siteName": "AI Skill Hub",
+    "search": "Search…",
+    "all": "All",
+    "view": "View",
+    "viewFull": "View full content",
+    "backToList": "Back to list",
+    "files": "files",
+    "size": "size",
+    "github": "GitHub",
+    "noResults": "No matches. Try another keyword or clear the filter.",
+    "found": "Found"
+  },
+  "nav": {
+    "marketplaces": "Marketplaces",
+    "officialSkills": "Official Skills",
+    "docs": "Official Docs",
+    "criteria": "Criteria",
+    "examples": "Examples",
+    "learn": "Learn"
+  },
+  "hero": {
+    "badge": "AI Skill Hub",
+    "title": "Discover, evaluate, and learn to write high-quality AI Skills",
+    "subtitle": "Resource hub + learning site: 20+ marketplaces, official docs, quantified criteria, curated examples"
+  },
+  "header": {
+    "skipToMain": "Skip to main content"
+  },
+  "marketplaces": {
+    "tag": "Marketplaces & Registries",
+    "title": "Skill Discovery",
+    "desc": "{count} marketplaces, registries, and awesome lists for skills, MCP, and agents. They solve one problem: how to quickly find the right skill for you.",
+    "empty": "No matching marketplaces. Try another keyword or clear the filter."
+  },
+  "officialSkills": {
+    "tag": "Official Skills Repositories",
+    "title": "{count} Official Skills",
+    "desc": "Official skill repositories grouped by publisher. One row per skill. Click a name to view full content (SKILL.md, references, scripts).",
+    "thName": "Name",
+    "thDesc": "Description",
+    "thFiles": "Files",
+    "thSize": "Size",
+    "tableHeaderView": "View"
+  },
+  "docs": {
+    "tag": "Official Documentation",
+    "title": "Official Documentation",
+    "desc": "",
+    "empty": "No matching official docs."
+  },
+  "criteria": {
+    "tag": "Evaluation Criteria",
+    "title": "Skill Evaluation Criteria v2",
+    "desc": "Based on Anthropic's official spec, the Agent Skills standard, Vercel's skills CLI docs, and a review of multiple benchmark projects. A three-layer funnel: Registry triage → Review static analysis → Benchmark on real tasks.",
+    "thDimension": "Dimension",
+    "thWeight": "Weight",
+    "thWhy": "Why it matters",
+    "thSource": "Basis / Source",
+    "veto": "Veto",
+    "formulaTitle": "Scoring formula",
+    "formulaCode": "Static score = Spec×0.20 + Compat×0.15 + Description×0.20 + Examples×0.15 + Docs×0.10 + Activity×0.10 + Safety×0.10",
+    "formulaNote": "Important: these 7 dimensions only answer «is this skill worth trying?» Real usefulness must be tested on actual tasks (benchmark / hands-on layer).",
+    "sourceFirst": "📌 First-hand source",
+    "sourceSecond": "📚 Second-hand source",
+    "sourceBoth": "📌 First-hand + 📚 Second-hand"
+  },
+  "examples": {
+    "tag": "High-Quality Examples",
+    "title": "Quality Skill Examples",
+    "desc": "These skills stand out across spec compliance, docs, examples, activity, and author credibility — benchmarks for learning and citation.",
+    "whyGood": "Why it's quality",
+    "score": "Score"
+  },
+  "learn": {
+    "tag": "Learn to Write",
+    "title": "Learn to Write Skills",
+    "desc": "From basic spec to advanced techniques — write a skill that Claude / Codex / Cursor can correctly load and trigger."
+  },
+  "breadcrumb": {
+    "backToOfficial": "← Back to Official Skills list"
+  },
+  "skillSource": {
+    "officialBadge": "Official",
+    "filesUnit": "files",
+    "viewOnGithub": "GitHub"
+  },
+  "footer": {
+    "madeWith": "Built with Next.js",
+    "license": "MIT License",
+    "viewSource": "Source",
+    "disclaimer": "Based on public docs from Anthropic, Vercel, OpenAI, GitHub, etc., and live GitHub data."
+  },
+  "home": {
+    "tag": "Welcome",
+    "title": "AI Skill Hub",
+    "desc": "A resource hub + learning site focused on AI Skills (Claude Code / Cursor / Codex / Agent Skills). Find the right skill, evaluate it, and learn to write your own.",
+    "cardMarketplaces": "20 marketplaces, registries, and awesome lists for skills, MCP, and agents.",
+    "cardOfficialSkills": "A full mirror of 65 skills from 4 official publishers: Anthropic, OpenAI, Google Gemini, Vercel Labs.",
+    "cardDocs": "Official docs from top labs and companies: Anthropic, Vercel, OpenAI, GitHub, etc.",
+    "cardCriteria": "A 7-dimension evaluation framework synthesized from first-hand and second-hand sources.",
+    "cardExamples": "6 verified benchmark skills, scored and dissected.",
+    "cardLearn": "From SKILL.md spec to templates and anti-patterns, hands-on guide to writing quality skills."
+  }
+}
