@@ -93,8 +93,8 @@
     "disclaimer": "Based on public docs from Anthropic, Vercel, OpenAI, GitHub, etc., and live GitHub data."
   },
   "home": {
-    "tag": "Welcome",
-    "title": "AI Skill Hub",
+    "tag": "Sections",
+    "title": "Everything, one click away",
     "desc": "A resource hub + learning site focused on AI Skills (Claude Code / Cursor / Codex / Agent Skills). Find the right skill, evaluate it, and learn to write your own.",
     "cardMarketplaces": "20 marketplaces, registries, and awesome lists for skills, MCP, and agents.",
     "cardOfficialSkills": "A full mirror of 65 skills from 4 official publishers: Anthropic, OpenAI, Google Gemini, Vercel Labs.",

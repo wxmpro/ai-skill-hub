@@ -93,8 +93,8 @@
     "disclaimer": "基于 Anthropic、Vercel、OpenAI、GitHub 等公开文档及 GitHub 实时检索数据"
   },
   "home": {
-    "tag": "欢迎",
-    "title": "AI Skill Hub",
+    "tag": "板块导航",
+    "title": "全部板块，一站直达",
     "desc": "聚焦 AI Skill（Claude Code / Cursor / Codex / Agent Skill）的资源导航 + 学习站。帮你快速找到合适的 skill、评价 skill 的好坏、并学会自己写出优质 skill。",
     "cardMarketplaces": "20 个 skill、mcp、agent 相关的 marketplace、registry 和 awesome 列表。",
     "cardOfficialSkills": "Anthropic、OpenAI、Google Gemini、Vercel Labs 四家官方发布方 65 个 skill 的完整镜像。",
