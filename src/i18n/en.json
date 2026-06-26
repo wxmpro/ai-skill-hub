@@ -23,7 +23,7 @@
   "hero": {
     "badge": "AI Skill Hub",
     "title": "Discover, evaluate, and learn to write high-quality AI Skills",
-    "subtitle": "Resource hub + learning site: 20+ marketplaces, official docs, quantified criteria, curated examples"
+    "subtitle": "Resource hub + learning site: 30+ marketplaces, official docs, quantified criteria, curated examples"
   },
   "header": {
     "skipToMain": "Skip to main content"
@@ -96,7 +96,7 @@
     "tag": "Sections",
     "title": "Everything, one click away",
     "desc": "A resource hub + learning site focused on AI Skills (Claude Code / Cursor / Codex / Agent Skills). Find the right skill, evaluate it, and learn to write your own.",
-    "cardMarketplaces": "20 marketplaces, registries, and awesome lists for skills, MCP, and agents.",
+    "cardMarketplaces": "31 marketplaces, registries, and awesome lists for skills, MCP, and agents.",
     "cardOfficialSkills": "A full mirror of 65 skills from 4 official publishers: Anthropic, OpenAI, Google Gemini, Vercel Labs.",
     "cardDocs": "Official docs from top labs and companies: Anthropic, Vercel, OpenAI, GitHub, etc.",
     "cardCriteria": "A 7-dimension evaluation framework synthesized from first-hand and second-hand sources.",

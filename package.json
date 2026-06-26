@@ -1,6 +1,6 @@
 {
   "name": "ai-skill-hub",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "AI Skill 资源导航 + 学习站：发现、评价、学会写优质 skill",
   "private": true,
   "scripts": {

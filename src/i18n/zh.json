@@ -9,7 +9,7 @@
     "files": "文件",
     "size": "大小",
     "github": "GitHub",
-    "noResults": "没有匹配的项。试试别的关键词或清空筛选。",
+    "noResults": "没有匹配的结果。换个关键词，或清空筛选条件再试。",
     "found": "找到"
   },
   "nav": {
@@ -18,12 +18,12 @@
     "docs": "官方文档",
     "criteria": "评价标准",
     "examples": "优质示例",
-    "learn": "学写 skill"
+    "learn": "学写 Skill"
   },
   "hero": {
     "badge": "AI Skill Hub",
     "title": "发现、评价、学会写｜高质量 AI Skill",
-    "subtitle": "资源导航 + 学习站：20+ Marketplace、官方文档、量化评价标准、优质示例拆解"
+    "subtitle": "资源导航 + 学习站：30+ Marketplace、官方文档、量化评价标准、优质示例拆解"
   },
   "header": {
     "skipToMain": "跳到主要内容"
@@ -31,13 +31,13 @@
   "marketplaces": {
     "tag": "Marketplaces & Registries（聚合导航）",
     "title": "Skill 发现入口",
-    "desc": "{count} 个 skill、mcp、agent 相关的 marketplace、registry 和 awesome 列表。这些入口解决的核心问题是：如何快速找到适合你的 skill。",
-    "empty": "没有匹配的 marketplace。试试别的关键词或清空筛选。"
+    "desc": "{count} 个 Skill、MCP、Agent 相关的 Marketplace、Registry 和 awesome 列表。这些入口解决的核心问题是：如何快速找到适合你的 Skill。",
+    "empty": "没有匹配的 Marketplace。换个关键词，或清空筛选条件再试。"
   },
   "officialSkills": {
     "tag": "官方 Skill 仓库（按发布方分组）",
     "title": "{count} 个官方 Skill",
-    "desc": "按发布方分组的官方 skill 仓库，每行一个 skill，点名字直接看完整内容（SKILL.md、references、scripts）。",
+    "desc": "按发布方分组的官方 Skill 仓库，每行一个 Skill，点击名称即可查看完整内容（SKILL.md、references、scripts）。",
     "thName": "名称",
     "thDesc": "说明",
     "thFiles": "文件",
@@ -53,7 +53,7 @@
   "criteria": {
     "tag": "评价标准（7 维度漏斗）",
     "title": "Skill 评价标准 v2",
-    "desc": "基于 Anthropic 官方规范、Agent Skills 标准、Vercel skills CLI 文档及多个 review/benchmark 项目总结。采用「三层漏斗」：Registry 初筛 → Review 静态审查 → Benchmark/实测。",
+    "desc": "基于 Anthropic 官方规范、Agent Skills 标准、Vercel skills CLI 文档，以及多个 review/benchmark 项目综合整理。采用「三层漏斗」：Registry 初筛 → Review 静态审查 → Benchmark/实测。",
     "thDimension": "维度",
     "thWeight": "权重",
     "thWhy": "为什么重要",
@@ -61,7 +61,7 @@
     "veto": "一票否决",
     "formulaTitle": "评分公式",
     "formulaCode": "静态质量分 = 规范×0.20 + 兼容×0.15 + 功能描述×0.20 + 示例边界×0.15 + 文档×0.10 + 活跃×0.10 + 安全×0.10",
-    "formulaNote": "重要：这 7 个维度只回答「这个 skill 是否值得试用」。真正的「好不好用」必须在真实任务上测试（Benchmark/实测层）。",
+    "formulaNote": "重要：这 7 个维度只回答「这个 Skill 是否值得试用」。真正的「好不好用」必须在真实任务上测试（Benchmark/实测层）。",
     "sourceFirst": "📌 一手来源",
     "sourceSecond": "📚 二手来源",
     "sourceBoth": "📌 一手 + 📚 二手"
@@ -69,14 +69,14 @@
   "examples": {
     "tag": "优质示例",
     "title": "优质 Skill 示例",
-    "desc": "这些 skill 在规范、文档、示例、活跃度、作者背书等维度表现突出，可作为学习和引用的标杆。",
+    "desc": "这些 Skill 在规范、文档、示例、活跃度、作者背书等维度表现突出，可作为学习和引用的标杆。",
     "whyGood": "为什么优质",
     "score": "评分"
   },
   "learn": {
     "tag": "学写 Skill",
     "title": "学写 Skill",
-    "desc": "从基础规范到进阶技巧，写出一个可被 Claude / Codex / Cursor 正确加载和触发的 skill。"
+    "desc": "从基础规范到进阶技巧，写出一个可被 Claude / Codex / Cursor 正确加载和触发的 Skill。"
   },
   "breadcrumb": {
     "backToOfficial": "← 返回官方 Skill 列表"
@@ -95,12 +95,12 @@
   "home": {
     "tag": "板块导航",
     "title": "全部板块，一站直达",
-    "desc": "聚焦 AI Skill（Claude Code / Cursor / Codex / Agent Skill）的资源导航 + 学习站。帮你快速找到合适的 skill、评价 skill 的好坏、并学会自己写出优质 skill。",
-    "cardMarketplaces": "20 个 skill、mcp、agent 相关的 marketplace、registry 和 awesome 列表。",
-    "cardOfficialSkills": "Anthropic、OpenAI、Google Gemini、Vercel Labs 四家官方发布方 65 个 skill 的完整镜像。",
+    "desc": "聚焦 AI Skill（Claude Code / Cursor / Codex / Agent Skill）的资源导航与学习站，帮你快速找到合适的 Skill、判断其优劣，并最终亲手写出高质量 Skill。",
+    "cardMarketplaces": "31 个 Skill、MCP、Agent 相关的 Marketplace、Registry 和 awesome 列表。",
+    "cardOfficialSkills": "Anthropic、OpenAI、Google Gemini、Vercel Labs 四家官方发布方 65 个 Skill 的完整镜像。",
     "cardDocs": "Anthropic、Vercel、OpenAI、GitHub 等顶级公司和实验室的官方文档。",
     "cardCriteria": "基于一手和二手来源总结的 7 维量化评价标准。",
-    "cardExamples": "6 个经过验证的优质 skill 标杆，含评分与拆解。",
-    "cardLearn": "从 SKILL.md 规范到模板与反例，手把手教你写出优质 skill。"
+    "cardExamples": "6 个经过验证的优质 Skill 标杆，含评分与拆解。",
+    "cardLearn": "从 SKILL.md 规范到模板与反例，手把手教你写出优质 Skill。"
   }
 }
