@@ -1,5 +1,6 @@
 'use client'
 
+import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import index from '@/data/official-skills/index.json'
 import vendors from '@/data/official-skills/vendors.json'
@@ -11,16 +12,35 @@ function formatSize(bytes) {
   return bytes + 'B'
 }
 
+function matchesQuery(skill, query, lang) {
+  if (!query) return true
+  const q = query.trim().toLowerCase()
+  const desc = lang === 'en'
+    ? skill.description
+    : (skill.descriptionZh || skill.description)
+  const haystack = `${skill.name} ${desc || ''}`.toLowerCase()
+  return haystack.includes(q)
+}
+
 export default function OfficialSkillsPage() {
   const { t, lang } = useI18n()
+  const [query, setQuery] = useState('')
 
-  const grouped = {}
-  for (const skill of index) {
-    if (!grouped[skill.vendor]) grouped[skill.vendor] = []
-    grouped[skill.vendor].push(skill)
-  }
+  const grouped = useMemo(() => {
+    const result = {}
+    for (const skill of index) {
+      if (!matchesQuery(skill, query, lang)) continue
+      if (!result[skill.vendor]) result[skill.vendor] = []
+      result[skill.vendor].push(skill)
+    }
+    return result
+  }, [query, lang])
 
-  const orderedVendors = vendors.filter((v) => grouped[v.id])
+  const orderedVendors = vendors.filter((v) => grouped[v.id]?.length > 0)
+  const totalVisible = useMemo(
+    () => Object.values(grouped).reduce((sum, arr) => sum + arr.length, 0),
+    [grouped]
+  )
 
   return (
     <div className="section">
@@ -30,13 +50,33 @@ export default function OfficialSkillsPage() {
         <p className="section-desc">{t('officialSkills.desc')}</p>
       </div>
 
-      {orderedVendors.map((v) => {
-        const skills = grouped[v.id]
-        if (!skills || skills.length === 0) return null
-        const vLabel = lang === 'en' ? v.labelEn : v.label
-        const vDesc = lang === 'en' ? v.descEn : v.desc
-        return (
-          <div key={v.id} className="category-block">
+      <div className="browser-controls">
+        <input
+          type="search"
+          className="search-input"
+          placeholder={t('common.search')}
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+        />
+      </div>
+
+      <div className="result-count">
+        {t('common.found')} <strong>{totalVisible}</strong> / {index.length}
+      </div>
+
+      {totalVisible === 0 ? (
+        <div className="empty-state">
+          <p>{t('common.noResults')}</p>
+        </div>
+      ) : (
+        <>
+          {orderedVendors.map((v) => {
+            const skills = grouped[v.id]
+            if (!skills || skills.length === 0) return null
+            const vLabel = lang === 'en' ? v.labelEn : v.label
+            const vDesc = lang === 'en' ? v.descEn : v.desc
+            return (
+              <div key={v.id} className="category-block">
             <div className="category-header">
               <h3>
                 <span className="category-icon">{v.emoji}</span>
@@ -99,6 +139,8 @@ export default function OfficialSkillsPage() {
           </div>
         )
       })}
-    </div>
+    </>
+  )}
+  </div>
   )
 }

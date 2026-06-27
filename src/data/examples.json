@@ -6,9 +6,9 @@
     "subtitle": "Anthropic 官方 · 生产级文档处理技能",
     "subtitleEn": "Anthropic's official production-grade document-handling skills.",
     "score": "",
-    "tags": [],
-    "why": "",
-    "whyEn": "",
+    "tags": ["文档", "官方"],
+    "why": "Anthropic 官方出品，SKILL.md 规范完整，是理解生产级 skill 的最佳样本。",
+    "whyEn": "Official Anthropic production-grade skills with complete SKILL.md specs — the best reference for learning high-quality skill structure.",
     "stars": 155035
   },
   {
@@ -18,9 +18,9 @@
     "subtitle": "Production-grade engineering skills",
     "subtitleEn": "Production-grade engineering skills",
     "score": "",
-    "tags": [],
-    "why": "",
-    "whyEn": "",
+    "tags": ["工程", "开发"],
+    "why": "覆盖工程实践、代码审查、性能优化等开发闭环，适合直接搬进项目工作流。",
+    "whyEn": "Covers engineering practices, code review, and performance optimization — ready to plug into real project workflows.",
     "stars": 66632
   },
   {
@@ -30,9 +30,9 @@
     "subtitle": "Vercel 官方 · 多 agent 兼容",
     "subtitleEn": "Vercel's official skills — multi-agent compatible.",
     "score": "",
-    "tags": [],
-    "why": "",
-    "whyEn": "",
+    "tags": ["工程", "多 Agent"],
+    "why": "Vercel 官方维护，强调跨客户端兼容，是理解 Agent Skills 标准化的好样本。",
+    "whyEn": "Officially maintained by Vercel with cross-client compatibility in mind — a good reference for Agent Skills standardization.",
     "stars": 28320
   },
   {
@@ -42,9 +42,9 @@
     "subtitle": "科研场景专用",
     "subtitleEn": "Skills for scientific workflows.",
     "score": "",
-    "tags": [],
-    "why": "",
-    "whyEn": "",
+    "tags": ["科研"],
+    "why": "专门面向文献阅读、实验记录、数据分析等科研流程，可直接用于研究工作流。",
+    "whyEn": "Focused on literature review, experiment logging, and data analysis — directly usable in scientific workflows.",
     "stars": 29301
   },
   {
@@ -54,9 +54,9 @@
     "subtitle": "PPT 生成场景",
     "subtitleEn": "PPT generation scenarios.",
     "score": "",
-    "tags": [],
-    "why": "",
-    "whyEn": "",
+    "tags": ["PPT", "办公"],
+    "why": "把自然语言需求转化为结构化幻灯片，示例完整，适合汇报、教学等场景。",
+    "whyEn": "Turns natural-language requirements into structured slides — complete examples ideal for reports and teaching.",
     "stars": 18919
   },
   {
@@ -66,9 +66,9 @@
     "subtitle": "跨平台研究型 skill",
     "subtitleEn": "Cross-platform research-oriented skill.",
     "score": "",
-    "tags": [],
-    "why": "",
-    "whyEn": "",
+    "tags": ["研究", "信息搜集"],
+    "why": "聚合多个平台信息做时间窗口研究，适合行业调研、竞品追踪、趋势分析。",
+    "whyEn": "Aggregates multi-platform information within a time window — useful for industry research, competitor tracking, and trend analysis.",
     "stars": 46588
   }
 ]

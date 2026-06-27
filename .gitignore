@@ -1,6 +1,9 @@
 # Chat outputs from today's conversation (archived locally, not tracked by git)
 chat-outputs/
 
+# Screenshots from verification
+screenshots/
+
 # macOS
 .DS_Store
 
