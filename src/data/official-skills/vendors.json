@@ -13,8 +13,8 @@
     "label": "OpenAI",
     "labelEn": "OpenAI",
     "emoji": "🅾️",
-    "desc": "OpenAI 官方 openai/skills 仓库（.system 系统级 + .curated 精选）",
-    "descEn": "OpenAI's official openai/skills repository (.system core + .curated sets).",
+    "desc": "OpenAI 官方 openai/skills 仓库（44 个 skill：.system 系统级 + .curated 精选）",
+    "descEn": "OpenAI's official openai/skills repository (44 skills: .system core + .curated sets).",
     "repo": "openai/skills"
   },
   {
@@ -22,8 +22,8 @@
     "label": "Google Gemini",
     "labelEn": "Google Gemini",
     "emoji": "🟦",
-    "desc": "Google Gemini 官方 gemini-skills 仓库",
-    "descEn": "Google Gemini's official gemini-skills repository.",
+    "desc": "Google Gemini 官方 gemini-skills 仓库（3 个 skill）",
+    "descEn": "Google Gemini's official gemini-skills repository (3 skills).",
     "repo": "google-gemini/gemini-skills"
   },
   {
@@ -31,8 +31,8 @@
     "label": "Vercel Labs",
     "labelEn": "Vercel Labs",
     "emoji": "▲",
-    "desc": "Vercel Labs 官方 skills 仓库",
-    "descEn": "Vercel Labs' official skills repository.",
+    "desc": "Vercel Labs 官方 skills 仓库（1 个 skill）",
+    "descEn": "Vercel Labs' official skills repository (1 skill).",
     "repo": "vercel-labs/skills"
   }
 ]

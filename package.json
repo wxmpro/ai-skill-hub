@@ -1,6 +1,6 @@
 {
   "name": "ai-skill-hub",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "AI Skill 资源导航 + 学习站：发现、评价、学会写优质 skill",
   "private": true,
   "scripts": {
@@ -18,7 +18,7 @@
     "agent"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "marked": "^18.0.5",
     "next": "^16.2.9",

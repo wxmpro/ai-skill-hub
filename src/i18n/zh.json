@@ -23,7 +23,7 @@
   "hero": {
     "badge": "AI Skill Hub",
     "title": "发现、评价、学会写｜高质量 AI Skill",
-    "subtitle": "资源导航 + 学习站：30+ Marketplace、官方文档、量化评价标准、优质示例拆解"
+    "subtitle": "资源导航 + 学习站：31 个 Marketplace、4 家官方发布方 65 个 Skill、12 份一手文档、7 维量化评价标准、6 个优质示例拆解"
   },
   "header": {
     "skipToMain": "跳到主要内容"
@@ -98,9 +98,9 @@
     "desc": "聚焦 AI Skill（Claude Code / Cursor / Codex / Agent Skill）的资源导航与学习站，帮你快速找到合适的 Skill、判断其优劣，并最终亲手写出高质量 Skill。",
     "cardMarketplaces": "31 个 Skill、MCP、Agent 相关的 Marketplace、Registry 和 awesome 列表。",
     "cardOfficialSkills": "Anthropic、OpenAI、Google Gemini、Vercel Labs 四家官方发布方 65 个 Skill 的完整镜像。",
-    "cardDocs": "Anthropic、Vercel、OpenAI、GitHub 等顶级公司和实验室的官方文档。",
+    "cardDocs": "Anthropic、Vercel、OpenAI、GitHub 等顶级公司和实验室的 12 份官方文档。",
     "cardCriteria": "基于一手和二手来源总结的 7 维量化评价标准。",
     "cardExamples": "6 个经过验证的优质 Skill 标杆，含评分与拆解。",
-    "cardLearn": "从 SKILL.md 规范到模板与反例，手把手教你写出优质 Skill。"
+    "cardLearn": "从 SKILL.md 规范到模板与反例，8 节教程手把手教你写出优质 Skill。"
   }
 }
